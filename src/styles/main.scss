@@ -1,8 +1,7 @@
-
-
-@use 'nav';
-@use 'menu';
-@use 'icon';
-@use 'header';
-@use 'page';
-@use 'top-bar';
+@import './utils/utils';
+@import './blocks/nav';
+@import './blocks/menu';
+@import './blocks/icon';
+@import './blocks/header';
+@import './blocks/page';
+@import './blocks/top-bar';

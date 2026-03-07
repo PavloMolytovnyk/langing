@@ -1,0 +1,5 @@
+@mixin on__tablet{
+    @media (min-width: 744px) {
+        @content;
+    }
+}
