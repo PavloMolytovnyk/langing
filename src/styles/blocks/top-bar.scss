@@ -1,17 +1,24 @@
 .top-bar{
-  padding-top: 25px;
-  padding-inline: 20px;
-
-  @include on-tablet {
-    padding-inline: 72px;
-  }
+  padding-top: 50px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  &__logo{
+  &__logo--link{
     display: flex;
+  }
+
+  &__logo{
+    @include hover(transform, scale(1.2));
+
+    height: 46px;
+    width: 64px;
+
+    @include on-tablet{
+      height: 65px;
+      width: 87px;
+    }
   }
 
   &__icons{

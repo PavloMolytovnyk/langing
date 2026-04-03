@@ -1,0 +1,24 @@
+
+.online{
+    margin: 40px auto 0px;
+    width: min-content;
+    text-align: center;
+
+}
+
+@include on-desctop(){
+    .block{
+        display: flex;
+    }
+}
+
+.online-title{
+    color: #D12D35;
+}
+
+.online-photo{
+    height: 277px;
+    width: 280px;
+
+    object-fit: cover;
+}
